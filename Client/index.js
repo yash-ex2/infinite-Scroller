@@ -87,6 +87,7 @@ function sortTable(colnum) {
     table = document.getElementById("tableBody");
     tr = table.getElementsByTagName("tr");
     for (i = 0; i < tr.length; i++) {
+        
         let td1 = tr[i].getElementsByTagName("td")[1];
         let td2 = tr[i].getElementsByTagName("td")[2];
         let td3 = tr[i].getElementsByTagName("td")[3];
